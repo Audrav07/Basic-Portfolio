@@ -4,37 +4,45 @@
 
 	<meta charset="UTF-8">
 	<title>Audrey's Portfolio</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
 </head>
 
 	<body>
+<div class="wrapper">
+
 <header>
-	<div class="container">
-		<div class="name"><h1>Audrey Davis</h1></div>
-			
+          <div id="header_block">
 
-	<nav class="nav">
-		<div id="sidebar" class="sidebarnav">
-			
-				<a href="#" class="active">About</a>
-			    <a href="portfolio.html">Portfolio</a>
-			    <a href="contact.html">Contact</a>
-			
+           <div class="container">
+             <h1 class="name">Audrey Davis</h1>
+	
+	<div id="nav">
+		<ul>
+		    <li><a href="#" class="active">About</a> | </li>
+			<li><a href="portfolio.html" class="active">Portfolio</a> | </li>
+			<li><a href="contact.html" class="active">Contact</a> | </li>
+	    </ul>
+
 	</nav>
-			</div>
-		</header>
-
 	
-	
+	</div>
 
-<div class="content">
+</div>
+
+</header>
+
+<hr>
+
+<div id="about">
    
-   <section class="about"><h1>About Me</h1></section>
+   <section>
 
-   <section class="profile-picture"><img src="assets/images/image1.jpg" alt="me" width=400px; height=225px;></section>
+   	<h2>About Me</h2>
 
-<section class="me">
+   	<hr>
+
+<img src="assets/images/image1.jpg" alt="me" width=350px; height=215px;>
 
 
 <p>Lover of all things fluffy!</p>
@@ -43,12 +51,16 @@
 
 </div>
 
-<div class="sidebar">
+
+<section id="social">
 
 
-	<h1>Connect with Me</h1>
+<aside>
+       
 
-	<section class="connect">
+		<h3>Connect with Me</h3><hr></hr>
+
+      <div id="social_images">
 
 	<a href="https://github.com/">
 		<img src="assets/images/github.png" alt="github" width=60px; height=60px; margin-right: 17px"></a>
@@ -57,17 +69,18 @@
 			<img src="assets/images/linkedin.png" alt="linkedin" width=60px; height=60px; margin-right:17px"></a>
 
 		<a href="https://stackoverflow.com/"><img src="assets/images/stackoverflow.png" alt="stackoverflow" width=60px; height=60px; margin-right:17px"></a>
-
+	
 </div>
 
-	</section>
+</aside>
+
+</section>
 
 
+	
 
-<section class="teal-footer"></section>
-<footer class="footer">
-
-&#169; 2017 Audrey Davis
+<footer>
+	<div id="footer-text">&#169; 2017 Audrey Davis</div>
 
 </footer>
 
