@@ -8,76 +8,85 @@
 	<link rel="stylesheet" href="assets/css/reset.css">
 </head>
 
-	<body>
+		<body>
 
-		<header>
-
-        <div class="container">
-
-			<h1 class="name">Audrey Davis</h1>
-	<nav>
+<div class="header">
+	<div class="center">
+		<h1 class="floatLeft">Audrey Davis</h1>
+		<nav class="floatRight">
 
 		<ul>
-			<li><a href="index.html" class="active">About</a></li>
-			<li><a href="portfolio.html" class="active">Portfolio</a></li>
-			<li><a href="#" class="active">Contact</a></li>
-	    </ul>
-	
-	</nav>
-			
-			</div>
+		    <li><a href="index.html">About</a> </li>
+			<li><a href="portfolio.html">Portfolio</a> </li>
+			<li><a class="active">Contact</a> </li>
+	   </ul>
 
-		</header>
-
-		<section id="contact">
-
-			<h2>Contact</h2>
-
-	<div class="container">
-		<form>
-			<label for="name">Name</label>
-			<label for="email">Email</label>
-
-			<label for="message">Message</label>
-			<textarea id="message" style="height:300px"></textarea>
-
-			<input type="submit" value="Submit">
-
-
-
-
-		</form>
-	
-
+	</div>
 
 </div>
 
-<section id="social">
+</nav>
+
+		</header>
+
+		<div class="main-content">
+
+			<section class="main-section">
+				
+
+<div class="maincontact">
+
+			<h1>Contact</h1></div>
+
+			<div id="contact-line"></div>
+
+			<div class="form">
+
+			<form id="contact" method="post">    
+				<label for="name">Name</label><br>
+				<input id="name" type="text" autocomplete="username" placeholder="Your Name" required><br>
+				<label for="email">Email</label><br>
+				<input id="email" type="email" name="email" autocomplete="email"
+					   placeholder="example@gmail.com" required><br>
+				<label for="textfield">Message</label><br>
+				<textarea id="textfield" rows="7"></textarea><br>
+				<button class="button" type="submit" name="submit">Submit</button>
+			</form>
+		</div>
+    	</section>
+    </div>
+
+    </div>
+						
+						
+
+<section class="social">
+
+	<h3 id="connect-heading">Connect with Me</h3>
 
 
-	<h1>Connect with Me</h1>
+	<hr id="connect-line">
+
 
 
 	<a href="https://github.com/">
-		<img src="assets/images/github.png" alt="github" width=60px; height=60px; margin-right: 17px"></a>
+		<img src="assets/images/github.png" alt="github" class="logo"></a>
 
 		<a href="https://linkedin.com/">
-			<img src="assets/images/linkedin.png" alt="linkedin" width=60px; height=60px; margin-right:17px"></a>
+			<img src="assets/images/linkedin.png" alt="linkedin" class="logo"></a>
 
-		<a href="https://stackoverflow.com/"><img src="assets/images/stackoverflow.png" alt="stackoverflow" width=60px; height=60px; margin-right:17px"></a>
-
-
+		<a href="https://stackoverflow.com/"><img src="assets/images/stackoverflow.png" alt="stackoverflow" class="logo"></a>
+	
 
 	</section>
 
 
 
-<section class="teal-footer"></section>
-<footer class="footer">
-
-&#169; 2017 Audrey Davis
+<footer>
+	<div id="footer">&#169; 2017 Audrey Davis</div>
 
 </footer>
+
 
 
 
