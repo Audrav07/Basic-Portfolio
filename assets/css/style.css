@@ -104,18 +104,24 @@ a{
   text-decoration: none;
 }
 
-
-
 .main-content{
-  max-width: 960px; 
-    min-width: 960px; 
- margin:auto;
-    padding: 20px;
-    
+   margin:auto;
+    padding: 20px; 
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 40px;
-    padding-top: 60px;
+    
+    clear:both;
+
+}
+
+.main-contact{
+ margin:auto;
+    padding: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    
     clear:both;
 
     }
@@ -125,19 +131,16 @@ a{
   max-width: 650px;
   min-width: 650px;
   height:480px;
-  padding-bottom: 80px;
-  padding-left: 33px;
-  padding-right: 33px;
+  
   border: 2px #cccccc solid;
   float: left;
   clear: right;
   background: white;
-  margin-top: -50px;
-  margin-left: 50px;
-  margin-bottom: 20px;
-  
-
-
+ padding-bottom: 80px;
+  padding-left: 33px;
+  padding-right: 33px;
+  margin-left: 40px;
+  margin-bottom:auto;
 
 
 }
@@ -177,6 +180,24 @@ margin-top: 35px;
 .social{
 
 box-sizing: border-box;
+display:inline-block;
+  float:right;
+  width: 270px;
+  border: solid 2px #cccccc;
+padding-left: 31px;
+  padding-right: 31px;
+  padding-bottom: 20px;
+  position:relative;
+  margin-top:260px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  bottom:300px;
+  background-color: #ffffff;
+}
+
+.social1{
+  box-sizing: border-box;
+display:inline-block;
   float:right;
   width: 270px;
   border: solid 2px #cccccc;
@@ -186,8 +207,10 @@ padding-left: 31px;
   position:relative;
   margin-top:250px;
   margin-right: 100px;
+  margin-bottom: 20px;
   bottom:300px;
   background-color: #ffffff;
+
 }
 
 
@@ -226,18 +249,23 @@ padding-left: 31px;
 
 }
 
-
+#portfolio-line{
+  border-bottom: 2px solid #cccccc;
+  margin-top: 10px;
+  margin-right: 20px;
+}
 
 .mainPortfolio{
-  
+  display:inline-block;
 box-sizing: border-box;
-  max-width: 650px;
-  min-width: 650px;
-  
+  max-width: 600px;
+  min-width: 600px;
+  margin-left: 50px;
   border: 2px #cccccc solid;
   float: left;
   clear: right;
-  margin-top:-35px;
+   color: #4aaaa5; 
+  font-family: 'Georgia', Times, Times New Roman, serif;
   background: white;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -246,11 +274,26 @@ box-sizing: border-box;
   padding-right: 33px;
 }
 
+.portfolio{
+  margin-top: 2px;
+    color: #4aaaa5; 
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  padding-bottom: 3px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left:10px;
+    border-bottom-style: solid;
+  border-color: #cccccc;
+  border-radius: 2px;
+ 
+
+}
 
 
 .mainLeft{ 
   margin-left: 0px;
   margin-right: 20px;
+
  
  }
 
@@ -386,7 +429,6 @@ padding-left: 5px;
   line-height: 150%;
   margin-top:30px;
 
-
   
 }
 
@@ -407,19 +449,6 @@ padding-left: 5px;
 
 }
 
-.portfolio{
-  margin-top: 2px;
-    color: #4aaaa5; 
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  padding-bottom: 3px;
-  font-size: 25px;
-  font-weight: bold;
-  margin-left:10px;
-    border-bottom-style: solid;
-  border-color: #cccccc;
-  border-radius: 2px;
-  border-bottom: 3px solid #cccccc;
 
-}
 
 /* Background pattern from Subtle Patterns */
