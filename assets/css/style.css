@@ -10,33 +10,29 @@ body{
 
 
 .center{
-  width: 960px;
+  width: 1200px;
   margin:auto;
-
 
 }
 
+
 .header{
-  background-color:  #ffffff;
-  height: 60px;
+   background-color:  #ffffff;
   float:left;
   line-height: 70px;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: left;
   border-bottom: 2px solid #cccccc;
+  height: 100%;
   width: 100%;
   margin:auto;
-  
-
-
-
 }
 
 .floatLeft{
   float:left;
-  height:60px;
+  height:73px;
   width:270px;
-  margin-left: 20px;
+  margin-left: 25px;
   font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: center;
   font-weight: bold;
@@ -45,8 +41,6 @@ body{
   color:#ffffff;
   background-color: #4aaaa5;
   font-size: 24px;
- 
-
 
 }
 
@@ -59,9 +53,13 @@ body{
 .floatRight a{
   font-size:18px;
   margin-left: 10px;
-  position: relative;
+  height:-10px;
+
+  
 
 }
+
+
 
 .floatRight a:hover{
   background-color: #4aaaa5;
@@ -70,8 +68,8 @@ body{
 }
 ul{
   list-style-type: none;
-  margin:0;
-  padding:0px;
+  margin:0px;
+  padding:-20px;
   overflow:hidden;
 
 
@@ -89,9 +87,7 @@ li a{
   padding: 14px 20px;
   text-decoration: none;
   font-size: 24px;
-   width:200px;
-
-  
+   width:50px;
 
 }
 
@@ -102,13 +98,12 @@ a{
   text-decoration: none;
 }
 
-.main-content{
+.main-container{
    margin:auto;
     padding: 20px; 
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 40px;
-    
+    padding-bottom: 40px; 
     clear:both;
 
 }
@@ -126,35 +121,37 @@ a{
 
 .main-section{
   box-sizing: border-box;
-  max-width: 650px;
-  min-width: 650px;
+  
   height:480px;
   
   border: 2px #cccccc solid;
-  float: left;
-  clear: right;
-  background: white;
- padding-bottom: 80px;
-  padding-left: 33px;
-  padding-right: 33px;
-  margin-left: 40px;
-  margin-bottom:auto;
+  background-color: #ffffff;
 
+  position: relative;
+  text-align: left;
+  width: 650px;
+  top: 30px;
+  margin-left: 108px;
+  margin-bottom: 50px;
+
+  padding: 20px;
 
 }
 
-#line{
-  border-bottom: 2px solid #cccccc;
-  margin-top: 20px;
-  margin-right: 20px;
 
+#connect-heading {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 20px;
+  color: #4aaaa5;
+  padding-top: 20px;
+  text-align: center;
 
 
 }
 
 
 .aboutheading{
-margin-top: 35px;
+margin-top: -5px;
 
     color: #4aaaa5; 
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -162,6 +159,12 @@ margin-top: 35px;
   font-size: 25px;
   font-weight: bold;
   margin-left:20px;
+}
+
+#connect-line1{
+   margin-top: 15px;
+  margin-bottom: 15px;
+
 }
 
 #photo{
@@ -175,46 +178,57 @@ margin-top: 35px;
 
 
 
-.social{
-
+#social{
+ position: absolute;
+  margin-left:800px;
 box-sizing: border-box;
-display:inline-block;
-  float:right;
   width: 270px;
-  border: solid 2px #cccccc;
-padding-left: 31px;
-  padding-right: 31px;
-  padding-bottom: 20px;
-  position:relative;
-  margin-top:260px;
-  margin-right: 100px;
-  margin-bottom: 20px;
-  bottom:300px;
-  background-color: #ffffff;
-}
+  padding:5px;
 
-.social1{
+  border: solid 2px #cccccc;
+  background-color: #ffffff;
+  margin-top:45px;
+  margin-bottom: 110px;
+  height:200px;
   box-sizing: border-box;
-display:inline-block;
+  display:inline;
   float:right;
   width: 270px;
   border: solid 2px #cccccc;
-padding-left: 31px;
+  padding-left: 31px;
   padding-right: 31px;
-  padding-bottom: 20px;
-  position:relative;
-  margin-top:250px;
-  margin-right: 100px;
-  margin-bottom: 20px;
+  padding-bottom: 20px; 
+  bottom:300px;
+  
+ 
+}
+
+
+#social1{
+position: absolute;
+  margin-top:45px;
+  margin-bottom: 110px;
+  height:200px;
+  box-sizing: border-box;
+  display:inline-box;
+  margin-left: 700px;
+  float:right;
+  width: 270px;
+  border: solid 2px #cccccc;
+  padding-left: 31px;
+  padding-right: 31px;
+  padding-bottom: 20px; 
   bottom:300px;
   background-color: #ffffff;
 
+
 }
+
 
 
 
 .logo{
- 
+ margin-top: 15px;
  height:60px;
   width:60px;
 
@@ -222,71 +236,64 @@ padding-left: 31px;
 
 
 
-#connect-heading {
+.connect {
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-size: 20px;
   color: #4aaaa5;
   padding-top: 20px;
   text-align: center;
+  font-weight: bold;
 
 
 }
 
 #connect-line {
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 15px;
 }
 
-.containerPortfolio{
-  box-sizing: border-box;
-    margin:auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom:10px;
 
 
-}
 
-#portfolio-line{
-  border-bottom: 2px solid #cccccc;
-  margin-top: 10px;
-  margin-right: 20px;
-}
 
 .mainPortfolio{
-  display:inline-block;
-box-sizing: border-box;
-  max-width: 600px;
-  min-width: 600px;
-  margin-left: 50px;
-  border: 2px #cccccc solid;
+  box-sizing: border-box;  
+   border: 2px #cccccc solid;
+    background-color: #ffffff;
+   width:470px;
+
   float: left;
   clear: right;
    color: #4aaaa5; 
   font-family: 'Georgia', Times, Times New Roman, serif;
-  background: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: -50px;
-  padding-left: 33px;
-  padding-right: 33px;
+  padding:20px;
+   margin:50px;
+  height: 600px;
+
+
 }
 
 .portfolio{
   margin-top: 2px;
-    color: #4aaaa5; 
+  color: #4aaaa5; 
   font-family: 'Georgia', Times, Times New Roman, serif;
   padding-bottom: 3px;
   font-size: 25px;
   font-weight: bold;
   margin-left:10px;
-    border-bottom-style: solid;
+  border-bottom-style: solid;
   border-color: #cccccc;
   border-radius: 2px;
  
 
 }
 
+
+#portfolio-line{
+  border-bottom: 2px solid #cccccc;
+  margin-top: 10px;
+  margin-right: 20px;
+} 
 
 .mainLeft{ 
   margin-left: 0px;
@@ -301,11 +308,12 @@ box-sizing: border-box;
  
 
  }
- .mainLeft .photo1{
+ .photo1{
    margin-top: 40px;
   margin-bottom: 40px;
   float:left;
-  margin-left: 50px;
+  position: relative;
+
   
  }
 
@@ -313,29 +321,36 @@ box-sizing: border-box;
   margin-top: 2px;
   margin-bottom: 10px;
   float: left;
-  margin-left: 50px;
+  margin-left: 1px;
   margin-right: 100px;
+  position: relative;
+ 
+  
  }
 
  .mainLeft .photo3{
   margin-top: 40px;
   margin-bottom: 40px;
   float:left;
-  margin-left: 50px;
+  margin-left: 1px;
+  position: relative;
+ 
 
  }
   .mainRight .photo4{
   margin-top: -259px;
   margin-bottom: 40px;
-  float:right;
-  margin-right: 50px;
+  float:right; 
+  position: relative;
  }
 
  .mainRight .photo5{
  margin-top: -115px;
   margin-bottom: 40px;
-  margin-right: 50px;
   float:right;
+  position: relative;
+ 
+
  }
 
  .image{
@@ -399,7 +414,6 @@ label:after { content: ": " }
 #contact-line{
   border-bottom: 2px solid #cccccc;
   margin-top: 16px;
- 
     margin-bottom: 2px;
   
 
