@@ -10,99 +10,53 @@
 
 		<body>
 
-<div class="header">
-
-	<div class="center">
-
-<div class="header-container">
-
-		<h1 class="floatLeft">Audrey Davis</h1>
-
-		<nav class="floatRight">
-
-		<ul>
-		    <li><a href="index.html">About</a> </li>
-			<li><a href="portfolio.html">Portfolio</a> </li>
-			<li><a class="active">Contact</a> </li>
-	   </ul>
-
-
-</nav>
-	</div>
-
-</div>
-
-</div>
-
-
-
-
-
-
-		<div class="main-contact">
-
-			<section class="main-section">
-				
-
-<div class="maincontact">
-
-			<h1>Contact</h1></div>
-
-			<div id="contact-line"></div>
-
-			<div class="form">
-
-			<form id="contact" method="post">    
-				<label for="name">Name</label><br>
-				<input id="name" type="text" autocomplete="username" placeholder="Your Name" required><br>
-				<label for="email">Email</label><br>
-				<input id="email" type="email" name="email" autocomplete="email"
-					   placeholder="example@gmail.com" required><br>
-				<label for="textfield">Message</label><br>
-				<textarea id="textfield" rows="7"></textarea><br>
-				<button class="button" type="submit" name="submit">Submit</button>
-			</form>
-		</div>
-    	</section>
+<header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Audrey Davis</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
 
+
+		<div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+        <a href="#"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="container1">
+      &copy; 2017 Audrey Davis
     </div>
-						
-						
-
-<section id="social">
-
-	<h3 id="connect-heading">Connect with Me</h3>
-
-
-	<hr id="connect-line">
-
-
-
-		<a href="https://github.com/">
-		<img src="assets/images/github.png" alt="github" class="logo"></a>
-
-		<a href="https://linkedin.com/">
-		<img src="assets/images/linkedin.png" alt="linkedin" class="logo"></a>
-
-		<a href="https://stackoverflow.com/"><img src="assets/images/stackoverflow.png" alt="stackoverflow" class="logo"></a>
-	
-
-	</section>
-
-
-
-<footer>
-	<div id="footer">&#169; 2017 Audrey Davis</div>
-
-</footer>
-
-
-
-
-
-
-	</body>
-
-
-</html>
+  </footer>
+</body>
